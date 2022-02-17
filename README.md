@@ -25,8 +25,8 @@ sikuli é uma IDE baseado em openCV(Reconhecimento visual), onde com poucas linh
  Apos instalar todos os requisitos, podera iniciar o Sikuli dando um double click e aparecera 
  uma tela com alguns botoes explicarei cada um deles.
  c![Screenshot from 2022-02-17 01-07-41](https://user-images.githubusercontent.com/99849522/154388220-dfffb9c7-eea7-404e-afce-283329691901.png)
- - Take screenShot: como o nome já diz, ele faz um screenshot de uma certa area da tela, quando clikar nele passara para sua tela principal e com o mouse ele criara uma imagem da reagiam onde voce marcou.
- - Insert img: quando voce clicar ira buscar uma imager já existente e adicionara ao programa.
+ - Take screenShot: como o nome já diz, ele faz um screenshot de uma certa area da tela, quando clicar nele passara para sua tela principal e com o mouse ele criara uma imagem da região onde voce marcou.
+ - Insert img: quando voce clicar ira buscar uma imagem já existente e adicionara ao programa.
  - Region: regiao é a area onde voce quer que seu programa atue, irei explicar isso mais detalhadamente a seguir.
  - Location: location é a posiçao da sua tela, no caso as cordenadas X e Y, onde voce quer atuar, por exemplo com o mouse.
  - Offiset: define o tamanha e a largura da tua seleçao, mas nao se preocupe esse nao sera preciso utilizar por enquanto.
@@ -38,11 +38,11 @@ sikuli é uma IDE baseado em openCV(Reconhecimento visual), onde com poucas linh
   ![Screenshot from 2022-02-17 01-45-59](https://user-images.githubusercontent.com/99849522/154388631-d99582f5-121e-4bf4-a0f0-23e2f09188c7.png)
 ## 4 Explicaçao do codigo
 - linha 2 podemos ver uma atribuiçao de variavel com uma foto, é apenas para dizer que agora o nome "no_nome" sera minha imagem, como pego a imagem ? 
-utilizando a opçao da IDE, Take screen shoot, voce ira clickar e selecionar a area que quer pegar, no caso as naves que estao sem muniçao no canto direito.
+utilizando a opçao da IDE, Take screen shoot, voce ira clicar e selecionar a area que quer pegar, no caso as naves que estao sem muniçao no canto direito.
 - linha 3 e linha 5: ira fazer o mesmo que a linha 2
-- linha 9 em python voce pode definir uma funçao chamando o def, onde criarei uma funçao chamada putFight, que seria algo do tipo ponha pra lugar(estava sem criativade).
+- linha 9 em python voce pode definir uma funçao chamando o def, onde criarei uma funçao chamada putFight, que seria algo do tipo ponha pra lutar(estava sem criativade).
 - linha 10 aqui é onde começa o loop da nossa funçao que ficara tentando pegar o numero de naves que faltam ate ter o maximo.
-- linha 12 aqui voce ira usar o botao "Region" do sikuli para pegar o regiao onde voce quer extrair o texto, pois sikuli tambem tem essa funçao utilizando o tesseract que extrai textos de imagens, assim pode ver quantas naves faltam para repor.
+- linha 12 aqui voce ira usar o botao "Region" do sikuli para pegar a regiao onde voce quer extrair o texto, pois sikuli tambem tem essa funçao utilizando o tesseract que extrai textos de imagens, assim pode ver quantas naves faltam para repor.
 - linha 13 qui ira dividir o texto que pegou, exemplo 10/15 e era dividir por "/"
 - linha 15 ira pegar a primeira parte de 10/15, no caso apenas o 10.
 - linha 16 ira quebrar o loop caso esteja tudo certo.
