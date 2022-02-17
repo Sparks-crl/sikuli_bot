@@ -1,7 +1,7 @@
 # Bem vindo ao Sikuli bot tutorial!
 
 Ola boa noite(sim é noite agora) , neste tutorial vou ensinar como fazer um bot para qualquer game web, Desktop, ou qualquer atividade repetitiva, irei aprentar uma biblioteca que se chama Sikuli, oque seria sikuli?
-sikuli é uma IDE baseado em openCV(Reconhecimento visual), onde com poucas linhas de codigo se pode automatizar qualquer coisa, estarei mostrando um exemplo do Space Crypto mas pode ser usada em qualquer game, asssim nao podem fazer o proprio bot e nao ter que depender de terceiros(Scams).
+sikuli é uma IDE baseado em openCV(Reconhecimento visual), onde com poucas linhas de codigo se pode automatizar qualquer coisa, estarei mostrando um exemplo do Space Crypto mas pode ser usada em qualquer game, asssim podem fazer o proprio bot e nao ter que depender de terceiros(Scams).
 
 
 ## 1 pre-requisitos
